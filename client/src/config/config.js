@@ -12,7 +12,7 @@ const config = {
       ],
       [
         "This isn’t your usual website",
-        "Cuz I want you to have a lil fun with it:)",
+        "Cuz I want you to have a lil fun with it",
       ],
       ["Let’s see how well you know me now", "Hope it makes you smile!"],
       // You can add more slides or delete slides as needed
@@ -44,31 +44,31 @@ const config = {
           { value: "indomie", label: "Indomie Noodles" },
           { value: "bakso", label: "Bakso" },
         ],
+  },
+      {
+        id: 2,
+        title: "Which drink will I love forever?",
+        description: "I buy this almost every aku pergi makan",
+        correctAnswer: "tehtawar",
+        options: [
+          { value: "lecitea", label: "Lychee Tea" },
+          { value: "cappucino", label: "Caramel Frappucino" },
+          { value: "tehtawar", label: "Teh Tawar" },
+          { value: "coke", label: "Cookies n Cream" },
+        ],
       },
-  //     {
-  //       id: 2,
-  //       title: "Which drink will I love forever?",
-  //       description: "I buy this almost every aku pergi makan",
-  //       correctAnswer: "tehtawar",
-  //       options: [
-  //         { value: "lecitea", label: "Lychee Tea" },
-  //         { value: "cappucino", label: "Caramel Frappucino" },
-  //         { value: "tehtawar", label: "Teh Tawar" },
-  //         { value: "coke", label: "Cookies n Cream" },
-  //       ],
-  //     },
-  //     {
-  //       id: 3,
-  //       title: "When's my birthday?",
-  //       description: "One more mistake and you’re in trouble:)",
-  //       correctAnswer: "mar-8",
-  //       options: [
-  //         { value: "sept-12", label: "February 17" },
-  //         { value: "oct-16", label: "March 9th" },
-  //         { value: "august-14", label: "March 18th" },
-  //         { value: "mar-8", label: "March 8th" },
-  //       ],
-  //     },
+      {
+        id: 3,
+        title: "When's my birthday?",
+        description: "One more mistake and you’re in trouble:)",
+        correctAnswer: "mar-8",
+        options: [
+          { value: "sept-12", label: "February 17" },
+          { value: "oct-16", label: "March 9th" },
+          { value: "august-14", label: "March 18th" },
+          { value: "mar-8", label: "March 8th" },
+        ],
+      },
   //     // You can add more questions here
   //     {
   //       id: 4,
