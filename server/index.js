@@ -36,7 +36,7 @@ app.post("/send-email", async (req, res) => {
     let mailOptions = {
       from: process.env.EMAIL_USER,
       to: "selxndy@gmail.com", // this is where you wish to get the letter, files and score data , you can use the same email in .env if you want (just type process.env.EMAIL_USER)
-      subject: "Drawings and letter for you",
+      subject: "Drawings and letter for you, Sel",
       text: `${message}\n\n${score}`,
       attachments: attachments,
     };
