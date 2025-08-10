@@ -44,7 +44,7 @@ const config = {
           { value: "indomie", label: "Indomie Noodles" },
           { value: "bakso", label: "Bakso" },
         ],
-  //     },
+      },
   //     {
   //       id: 2,
   //       title: "Which drink will I love forever?",
