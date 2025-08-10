@@ -12,7 +12,7 @@ const config = {
       ],
       [
         "This isn’t your usual website",
-        "Cuz I want you to have a lil fun with it",
+        "Cuz I want you to have a lil fun with it:)",
       ],
       ["Let’s see how well you know me now", "Hope it makes you smile!"],
       // You can add more slides or delete slides as needed
