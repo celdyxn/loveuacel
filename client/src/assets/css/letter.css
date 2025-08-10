@@ -37,7 +37,7 @@
 .letter-page textarea {
   width: 100%;
   background-color: black;
-  font-family: cursive;
+  font-family: sans-serif;
   font-weight: bold;
   background: transparent;
   border: 0;
@@ -116,7 +116,7 @@
 }
 
 .letter-page .content:after {
-  content: "Tanggal Mengirim :";
+  content: "Tgl :";
   position: absolute;
   width: 100px;
   height: 30px;
