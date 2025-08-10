@@ -69,73 +69,73 @@ const config = {
           { value: "mar-8", label: "March 8th" },
         ],
       },
-  //     // You can add more questions here
-  //     {
-  //       id: 4,
-  //       title: "Do you even know how much I love you?",
-  //       description: "Careful, the wrong answer might break my heart 💔",
-  //      correctAnswer: "infinite",
-  //         options: [
-  //           { value: "a-lot", label: "A lot" },
-  //           { value: "so-much", label: "So much" },
-  //           { value: "infinite", label: "More than infinite" },
-  //           { value: "idk", label: "I don't know" },
-  //         ],
-  //     },
-  //     {
-  //   id: 5,
-  //   title: "When’s the first time we met?",
-  //   description: "If you forget, I might pretend we never met",
-  //   correctAnswer: "march-29",
-  //   options: [
-  //     { value: "march-29", label: "March 29th" },
-  //     { value: "march-25", label: "March 25th" },
-  //     { value: "may-29", label: "May 29th" },
-  //     { value: "march-19", label: "March 19th" },
-  //   ],
-  // },
-  //  {
-  //   id: 6,
-  //   title: "If I’m mad, what should you do?",
-  //   description: "Choose wisely, your life may depend on it 😈",
-  //   correctAnswer: "hug",
-  //   options: [
-  //     { value: "apologize", label: "Apologize" },
-  //     { value: "hug", label: "Give you a hug" },
-  //     { value: "food", label: "Bring food" },
-  //     { value: "run", label: "Run for my life" },
-  //   ],
-  // },
-  // {
-  //   id: 7,
-  //   title: "What do I want right now?",
-  //   description: "It changes every 5 minutes 🤭",
-  //   correctAnswer: "all",
-  //   options: [
-  //     { value: "hug", label: "A hug" },
-  //     { value: "food", label: "Food" },
-  //     { value: "sleep", label: "A nap" },
-  //     { value: "all", label: "All of the above" },
-  //   ],
-  // },
-  // {
-  //   id: 8,
-  //   title: "What’s my dream vacation?",
-  //   description: "Hint: …",
-  //   correctAnswer: "anywhere",
-  //   options: [
-  //     { value: "raja", label: "Raja Ampat" },
-  //     { value: "japan", label: "Japan" },
-  //     { value: "riau", label: "Riau" },
-  //     { value: "anywhere", label: "Anywhere with you" },
-  //   ],
-  // },
+      // You can add more questions here
+      {
+        id: 4,
+        title: "Do you even know how much I love you?",
+        description: "Careful, the wrong answer might break my heart 💔",
+       correctAnswer: "infinite",
+          options: [
+            { value: "a-lot", label: "A lot" },
+            { value: "so-much", label: "So much" },
+            { value: "infinite", label: "More than infinite" },
+            { value: "idk", label: "I don't know" },
+          ],
+      },
+      {
+    id: 5,
+    title: "When’s the first time we met?",
+    description: "If you forget, I might pretend we never met",
+    correctAnswer: "march-29",
+    options: [
+      { value: "march-29", label: "March 29th" },
+      { value: "march-25", label: "March 25th" },
+      { value: "may-29", label: "May 29th" },
+      { value: "march-19", label: "March 19th" },
+    ],
+  },
+   {
+    id: 6,
+    title: "If I’m mad, what should you do?",
+    description: "Choose wisely, your life may depend on it 😈",
+    correctAnswer: "hug",
+    options: [
+      { value: "apologize", label: "Apologize" },
+      { value: "hug", label: "Give you a hug" },
+      { value: "food", label: "Bring food" },
+      { value: "run", label: "Run for my life" },
+    ],
+  },
+  {
+    id: 7,
+    title: "What do I want right now?",
+    description: "It changes every 5 minutes 🤭",
+    correctAnswer: "all",
+    options: [
+      { value: "hug", label: "A hug" },
+      { value: "food", label: "Food" },
+      { value: "sleep", label: "A nap" },
+      { value: "all", label: "All of the above" },
+    ],
+  },
+  {
+    id: 8,
+    title: "What’s my dream vacation?",
+    description: "Hint: …",
+    correctAnswer: "anywhere",
+    options: [
+      { value: "raja", label: "Raja Ampat" },
+      { value: "japan", label: "Japan" },
+      { value: "riau", label: "Riau" },
+      { value: "anywhere", label: "Anywhere with you" },
+    ],
+  },
     ],
     // GIF ANIMATION CONFIGURATION
     gifConfig: [
       {
         check: (score) => score >= 7, // If score is 3 or above, this GIF will be shown
-        heading: "Wow!!!!!!! unbelievable",
+        heading: "NICEEEE SAYANGGG HAHAHAHAHAHAHA",
         gifName: "gif4.gif", // Name of the GIF file in `src/assets/gifs`
         style: "w-44", // Tailwind CSS class for styling the GIF
       },
@@ -173,7 +173,7 @@ const config = {
     // Text for the submit button
     text: {
       submitText: "Submit",
-      finalText: "Thank you baby ❤️",
+      finalText: "Thank uuuu acelll!!🤍",
       loading: "Sending...",
     },
   },
@@ -182,15 +182,15 @@ const config = {
   letterPage: {
     // Placeholder text for the letter input
     placeholder: {
-      default: `Now it's your turn to write me a little letter :) Once you hit "Send Message", I'll get to read it hehe`,
-      emptyInput: "Hey... you gotta type something first!",
-      success: "Got your message, my love! Thank you 💖",
+      default: `Now it's your turn to write me a little letter :) aku bakal baca pesan kamuuu hehehe`,
+      emptyInput: "minimal ngetik dek",
+      success: "Got your message, cel! Thank you bby😚",
       error: "Oops... message didn’t go through. Try again!",
     },
     // Button text
     buttons: {
-      sendMessage: "Send Message",
-      clearText: "Clear",
+      sendMessage: "Kirim Pesan",
+      clearText: "HAPUS",
       loading: "Sending...",
     },
     // API configuration for sending emails
